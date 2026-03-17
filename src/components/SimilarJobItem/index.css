@@ -1,0 +1,68 @@
+.individual-similar-job-item {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  background-color: #272727;
+  list-style-type: none;
+  border-radius: 15px;
+}
+
+.logo-title-rating-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 0px;
+}
+
+.job-title {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.comapny-logo {
+  height: 50px;
+  width: 50px;
+}
+
+.details {
+  color: #ffffff;
+  align-items: center;
+  font-size: 16px;
+}
+
+.star-icon {
+  color: gold;
+}
+
+.description-heading {
+  font-family: Roboto;
+  color: #f8fafc;
+  font-size: 20px;
+}
+
+.job-desc {
+  margin-top: 0px;
+  font-family: Roboto;
+  color: #f8fafc;
+  font-size: 16px;
+}
+
+.location-type-div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.j-icon {
+  color: #ffffff;
+}
+
+@media (width: 320px) {
+  .individual-similar-job-item {
+    min-width: 300px;
+    padding: 10px;
+  }
+}

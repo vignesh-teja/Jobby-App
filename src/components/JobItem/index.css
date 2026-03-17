@@ -1,0 +1,131 @@
+.link {
+  text-decoration: none;
+}
+.individual-job-item {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  padding: 15px;
+  background-color: #272727;
+  border-radius: 15px;
+}
+
+.logo-title-rating-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 0px;
+}
+
+.job-title {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.comapny-logo {
+  height: 70px;
+  width: 70px;
+}
+
+.details {
+  color: #ffffff;
+  align-items: center;
+  font-size: 20px;
+}
+
+.details-ctc {
+  color: #ffffff;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.star-icon {
+  color: gold;
+}
+
+.location-type-ctc-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.location-type-div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.j-icon {
+  color: #ffffff;
+}
+
+.seperator {
+  width: 98%;
+  color: #616e7c;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.description-heading {
+  font-family: Roboto;
+  color: #f8fafc;
+  font-size: 24px;
+}
+
+.job-desc {
+  margin-top: 0px;
+  font-family: Roboto;
+  color: #f8fafc;
+  font-size: 18px;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .individual-job-item {
+    width: 300px;
+  }
+  .comapny-logo {
+    height: 50px;
+    width: 50px;
+  }
+  .job-title {
+    font-size: 16px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  .details {
+    font-size: 15px;
+    align-self: center;
+  }
+  .details-ctc {
+    font-size: 18px;
+  }
+  .star-icon {
+    font-size: 1em;
+  }
+  .description-heading {
+    font-size: 18px;
+  }
+  .job-desc {
+    font-size: 16px;
+  }
+  .j-icon {
+    font-size: 10px;
+  }
+}
+
+@media (width: 768px) {
+  .individual-job-item {
+    width: 500px;
+  }
+}
+
+@media (width: 1024px) {
+  .individual-job-item {
+    width: 800px;
+  }
+}
