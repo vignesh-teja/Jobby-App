@@ -64,22 +64,26 @@ class Login extends Component {
             alt="website logo"
             className="login-logo-img"
           />
-          <label htmlFor="username">USERNAME</label>
+          <label htmlFor="username" className="label-item">
+            USERNAME
+          </label>
           <input
             type="text"
             className="ip"
             value={username}
             onChange={this.onChangeUserName}
-            placeholder="Username"
+            placeholder="rahul"
             id="username"
           />
-          <label htmlFor="password">PASSWORD</label>
+          <label htmlFor="password" className="label-item">
+            PASSWORD
+          </label>
           <input
             type="password"
             className="ip"
             value={password}
             onChange={this.onChangePassword}
-            placeholder="Password"
+            placeholder="rahul@2021"
             id="password"
           />
           <button type="submit" className="login-btn">

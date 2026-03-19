@@ -34,14 +34,14 @@ label {
 .ip {
   border: 1px solid #64748b;
   border-radius: 5px;
-  height: 35px;
+  min-height: 35px;
   width: 360px;
   color: #475569;
   font-size: 16px;
   padding-left: 10px;
   font-family: Roboto;
   outline: none;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .login-btn {
@@ -56,8 +56,12 @@ label {
   font-size: 16px;
   font-weight: bold;
   padding: 5px;
-  margin-top: 15px;
+  margin-top: 10px;
   cursor: pointer;
+}
+
+.label-item {
+  margin-bottom: 5px;
 }
 
 .error-msg {
@@ -66,10 +70,17 @@ label {
   font-size: 18px;
 }
 
+.use {
+  color: #ffffff;
+  font-size: 12px;
+  padding: 5px;
+}
+
 @media (min-width: 320px) and (max-width: 425px) {
   .login-form-container {
     width: 300px;
     padding: 10px;
+    padding-bottom: 25px;
   }
   .login-logo-img {
     height: 40px;
@@ -89,10 +100,12 @@ label {
   .login-form-container {
     width: 350px;
     align-items: center;
+    padding-bottom: 25px;
   }
-  label {
+  .label-item {
     align-self: flex-start;
     padding-left: 30px;
+    padding-bottom: 0px;
   }
 }
 
@@ -100,10 +113,12 @@ label {
   .login-form-container {
     width: 400px;
     align-items: center;
+    padding-bottom: 25px;
   }
-  label {
+  .label-item {
     align-self: flex-start;
     padding-left: 60px;
+    padding-bottom: 0px;
   }
 }
 
@@ -114,8 +129,32 @@ label {
     padding: 30px;
     align-items: center;
   }
-  label {
+  .label-item {
     align-self: flex-start;
     padding-left: 90px;
+  }
+}
+
+@media (width: 1024px) {
+  .label-item {
+    align-self: flex-start;
+    padding-left: 100px;
+  }
+}
+
+@media (width: 1440px) {
+  .login-form-container {
+    width: 600px;
+    height: 400px;
+    padding: 30px;
+    align-items: center;
+  }
+  .label-item {
+    padding-left: 100px;
+    margin-bottom: 5px;
+    padding-bottom: 0px;
+  }
+  .ip {
+    min-height: 35px;
   }
 }
